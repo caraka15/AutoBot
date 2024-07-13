@@ -1,0 +1,136 @@
+{
+    "level_14": [
+        {
+            "address": "0x8Be4491cED884D5C6B1667bD4E20B975E079A469",
+            "rank": 2,
+            "score": 3672970
+        },
+        {
+            "address": "0x4fF82452A8D0F94A3B52f6a891e5b794d7A2FD52",
+            "rank": 3,
+            "score": 3584781
+        },
+        {
+            "address": "0x4A3Ebad57E1408DD54483EB801DE55a9c70c86A4",
+            "rank": 12,
+            "score": 2962427
+        },
+        {
+            "address": "0xf9B2E1f237e60205585CcD1339D335bCdfF5cB97",
+            "rank": 13,
+            "score": 2934360
+        },
+        {
+            "address": "0x064cB0bB4c8ABE11935134aEE670C032D6833556",
+            "rank": 16,
+            "score": 2860081
+        },
+        {
+            "address": "0xd8C860D789Ec1c6aE9631B680E6555F25Bc28331",
+            "rank": 21,
+            "score": 2816211
+        },
+        {
+            "address": "0x77B4922Fcc0Fa745Bcd7d76025E682CFfFc9a149",
+            "rank": 21,
+            "score": 2817927
+        },
+        {
+            "address": "0xD570f3c3a6F911Ba8F78E3394c9B9aBDA0157829",
+            "rank": 24,
+            "score": 2776158
+        },
+        {
+            "address": "0x32a554D4b6eb1a9Dc488bfEcAb9074CB8DB5DCE3",
+            "rank": 26,
+            "score": 2737427
+        },
+        {
+            "address": "0x9dD295D8557c61AD14408A92645C961f47300455",
+            "rank": 50,
+            "score": 2576089
+        }
+    ],
+    "level_13": [
+        {
+            "address": "0x68C3CCef065dc12855CabD0539565383B99c376c",
+            "rank": 53,
+            "score": 2528067
+        },
+        {
+            "address": "0x72A363e15676ec9B2Ba00c2f62dBDb8f1B1bd1B2",
+            "rank": 58,
+            "score": 2518241
+        },
+        {
+            "address": "0xB7Cd2CEF367bf5536d7fdF6c491CE158D2651d97",
+            "rank": 65,
+            "score": 2471988
+        },
+        {
+            "address": "0x7465aFFF90B18B849A00e0f69754577246b3792a",
+            "rank": 74,
+            "score": 2391684
+        },
+        {
+            "address": "0xdb60Da1d5C715B18946f5f80e13A6135C5b9d7B6",
+            "rank": 90,
+            "score": 2282531
+        },
+        {
+            "address": "0xC1Be09F8E54D70F063709AD18E10C2F4c301F945",
+            "rank": 134,
+            "score": 2127367
+        },
+        {
+            "address": "0x99e27746e33c9886f6A3A19336E0aB753F962db9",
+            "rank": 144,
+            "score": 2108044
+        },
+        {
+            "address": "0x2b7403bdB196fa5fc0e4f779600A084bE0D8422E",
+            "rank": 169,
+            "score": 2024755
+        },
+        {
+            "address": "0x281e3d092eCE1667141DC6f4F45ce0f72Fc81b3C",
+            "rank": 222,
+            "score": 1887418
+        },
+        {
+            "address": "0x1e8A4ec0a8546c532a929C7D53fc3E8853b963f1",
+            "rank": 224,
+            "score": 1886791
+        },
+        {
+            "address": "0xa47dCC127BD2487B01477D8e381dCEd5de5e5033",
+            "rank": 259,
+            "score": 1827674
+        },
+        {
+            "address": "0x3D3DE66089eA4EC31B49e1Ee75fe0044d7FC3137",
+            "rank": 279,
+            "score": 1787127
+        },
+        {
+            "address": "0x054C5Cfc92c22b50C0dCC2E8c8868b7091b94eF0",
+            "rank": 303,
+            "score": 1753508
+        },
+        {
+            "address": "0x00B824A7AEBd7Ab7cFD5fafA470C690f0dbA7Cb6",
+            "rank": 333,
+            "score": 1689406
+        },
+        {
+            "address": "0xe0854Ff3E73dF0f4B421004D7313fDaf8fd5Ec17",
+            "rank": 460,
+            "score": 1536438
+        },
+        {
+            "address": "0xb9E500CF14b355f50217f1a89040DF1765C5E70e",
+            "rank": 469,
+            "score": 1526158
+        }
+    ]
+}
