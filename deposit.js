@@ -115,22 +115,32 @@ async function depositNative() {
   }
 }
 
+// Fungsi untuk mendapatkan saldo ETH
+async function getBalance() {
+  const balance = await wallet.getBalance();
+  return ethers.utils.formatEther(balance);
+}
+
 async function main() {
   for (let i = 0; i < 10; i++) {
     try {
       const blockNumber = await depositNative();
 
-      // Wait for 10 block confirmations
-      console.log(`Waiting for 10 blocks from block number: ${blockNumber}`);
-      let currentBlock = blockNumber;
-      while (currentBlock < blockNumber + 9) {
-        await new Promise((resolve) => setTimeout(resolve, 20000)); // 6 seconds delay
-        currentBlock = await provider.getBlockNumber();
-        console.log(`Current Block: ${currentBlock}`);
+      // Check balance before proceeding to next transaction
+      let balance = await getBalance();
+      console.log(
+        `Waiting for balance to be above 0.05 ETH. Current balance: ${balance} ETH`
+      );
+      while (parseFloat(balance) <= 0.05) {
+        await new Promise((resolve) => setTimeout(resolve, 20000)); // 20 seconds delay
+        balance = await getBalance();
+        console.log(`Current Balance: ${balance} ETH`);
       }
 
       console.log(
-        `10 blocks confirmed. Proceeding to next transaction (${i + 1}/10).`
+        `Balance is above 0.05 ETH. Proceeding to next transaction (${
+          i + 1
+        }/10).`
       );
     } catch (error) {
       console.error(`Error in transaction ${i + 1}:`, error);

@@ -175,7 +175,7 @@ const contract = new ethers.Contract(contractAddress, contractABI, wallet);
 
 // Fungsi untuk melakukan transaksi withdraw
 async function withdraw() {
-  const amount = ethers.utils.parseEther("0.05"); // Jumlah withdraw, contoh: 0.1 WETH
+  const amount = ethers.utils.parseEther("0.04"); // Jumlah withdraw, contoh: 0.1 WETH
 
   try {
     const tx = await contract.withdraw(amount, {

@@ -175,7 +175,7 @@ const contract = new ethers.Contract(contractAddress, contractABI, wallet);
 
 // Fungsi untuk melakukan transaksi deposit
 async function deposit() {
-  const amount = ethers.utils.parseEther("0.05"); // Jumlah deposit, contoh: 0.1 ETH
+  const amount = ethers.utils.parseEther("0.04"); // Jumlah deposit, contoh: 0.1 ETH
 
   try {
     const tx = await contract.deposit({

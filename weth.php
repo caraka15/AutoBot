@@ -13,7 +13,7 @@ function runCommand($command)
 }
 
 // Jumlah iterasi
-$iterations = 30; // Ganti dengan jumlah iterasi yang Anda inginkan
+$iterations = 70; // Ganti dengan jumlah iterasi yang Anda inginkan
 
 // Interval waktu dalam detik (2 menit = 120 detik)
 $interval = 30;
